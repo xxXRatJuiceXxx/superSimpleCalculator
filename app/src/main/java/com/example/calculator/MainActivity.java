@@ -40,41 +40,41 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        if(s1.equals("Please enter value 1") && s2.equals(null))
+        if(s1.equals("Введи первую цифру") && s2.equals(null))
         {
-            String result = "Please enter value 2";
+            String result = "Введи вторую цифру";
             e2.setText(result);
             return false;
         }
-        if(s1.equals(null) && s2.equals("Please enter value 2"))
+        if(s1.equals(null) && s2.equals("Введи вторую цифру"))
         {
-            String result = "Please enter value 1";
+            String result = "Введи первую цифру";
             e1.setText(result);
             return false;
         }
-        if(s1.equals("Please enter value 1") || s2.equals("Please enter value 2"))
+        if(s1.equals("Введи первую цифру") || s2.equals("Введи вторую цифру"))
         {
             return false;
         }
 
         if((!s1.equals(null) && s2.equals(null))|| (!s1.equals("") && s2.equals("")) ){
 
-            String result = "Please enter value 2";
+            String result = "Введи вторую цифру";
 
             e2.setText(result);
             return false;
         }
         if((s1.equals(null) && !s2.equals(null))|| (s1.equals("") && !s2.equals("")) ){
 
-            String result = "Please enter value 1";
+            String result = "Введи первую цифру";
             e1.setText(result);
             return false;
         }
         if((s1.equals(null) && s2.equals(null))|| (s1.equals("") && s2.equals("")) ){
 
-            String result1 = "Please enter value 1";
+            String result1 = "Введи первую цифру";
             e1.setText(result1);
-            String result2 = "Please enter value 2";
+            String result2 = "Введи вторую цифру";
             e2.setText(result2);
             return false;
         }
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
 
     }
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
     }
 
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
     }
 
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
     }
 
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
     }
 
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            t1.setText("Error Please enter Required Values");
+            t1.setText("Введи значения!");
         }
     }
 
